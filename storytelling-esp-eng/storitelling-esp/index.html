@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mujeres en los videojuegos competitivos en Latinoamérica</title>
+<meta name="description" content="Historia de datos sobre la participación, el acoso y las redes de apoyo de las mujeres en los videojuegos competitivos en Latinoamérica." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="assets/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+<nav class="lang-switch" aria-label="Idioma">
+  <a href="index.html" class="active" aria-current="page">ES</a>
+  <a href="../storitelling-eng/index.html" hreflang="en" lang="en">EN</a>
+</nav>
+
+<nav class="chapter-nav" aria-label="Capítulos">
+  <a href="#c1"><span>1 · Quiénes juegan</span></a>
+  <a href="#c2"><span>2 · El primer control</span></a>
+  <a href="#c3"><span>3 · La partida</span></a>
+  <a href="#c4"><span>4 · Jugar en silencio</span></a>
+  <a href="#c5"><span>5 · La escalera</span></a>
+  <a href="#c6"><span>6 · Comunidad</span></a>
+  <a href="#cierre"><span>Cierre</span></a>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="hero-scene" id="heroScene" aria-hidden="true"></div>
+  <div class="hero-copy">
+    <div class="eyebrow">Una historia de datos · Latinoamérica</div>
+    <h1>Mujeres en los videojuegos <em>competitivos</em></h1>
+    <p class="lede">Son casi la mitad de quienes juegan. Aun así, muchas entran a una partida en línea con el micrófono apagado y un nombre que no es el suyo.</p>
+    <div class="scroll-cue">▼ desplázate para jugar ▼</div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= CAPÍTULO 1 ================= -->
+<section class="chapter" id="c1">
+  <div class="container wrap">
+    <div class="chapter-head narrow reveal">
+      <div class="chapter-num">Capítulo 1</div>
+      <h2>Quiénes juegan</h2>
+      <p>La imagen clásica del <em>gamer</em> es la de un chico adolescente frente a una consola. Los datos cuentan otra historia: en el mundo, <span class="hl">48 de cada 100</span> personas que juegan videojuegos son mujeres. En Brasil, el mayor mercado de la región, ya son mayoría.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="waffles">
+      <span class="chart-type">Parte de un todo · waffle</span>
+      <p class="chart-title">De cada 100 personas que juegan, ¿cuántas son mujeres?</p>
+      <p class="chart-sub">Jugadoras activas (al menos una hora a la semana), 2025</p>
+      <div class="legend"><span><i style="background:var(--women)"></i>Mujeres</span><span><i style="background:var(--rest)"></i>Hombres y otras identidades</span></div>
+      <div class="chart-body waffles">
+        <div id="waffle-world"></div>
+        <div id="waffle-brazil"></div>
+      </div>
+      <figcaption>Fuente: <a href="https://www.theesa.com/resources/the-global-power-of-play-report/" target="_blank" rel="noopener">ESA, <em>Power of Play 2025 Global Report</em></a>. Encuesta de AudienceNet a 24.216 personas en 21 países. Global: 48% mujeres, 51% hombres. Brasil: 57% mujeres, 43% hombres.</figcaption>
+    </figure>
+
+    <div class="narrow reveal">
+      <p>Brasil tiene una de las series anuales más largas de la región que separa a quienes juegan por género: la <strong>Pesquisa Game Brasil</strong>. Su curva muestra que la presencia femenina no es una moda. Las mujeres han sido mayoría casi todos los años, con una sola excepción.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="pgb">
+      <span class="chart-type">Cambio en el tiempo · línea</span>
+      <p class="chart-title">Porcentaje de mujeres entre quienes juegan en Brasil</p>
+      <p class="chart-sub">Ediciones de la Pesquisa Game Brasil con dato publicado. La línea punteada marca los años sin dato en esta serie.</p>
+      <div class="chart-body" id="pgb-line"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuente: <a href="https://www.pesquisagamebrasil.com.br" target="_blank" rel="noopener">Pesquisa Game Brasil (SX Group, Go Gamers, Blend New Research y ESPM)</a>, ediciones 2019, 2020, 2023, 2024, 2025 y 2026, según lo reportado por TecMundo, Meio &amp; Mensagem, Propmark y Forbes Brasil.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= CAPÍTULO 2 ================= -->
+<section class="chapter" id="c2">
+  <div class="container wrap">
+    <div class="chapter-head narrow reveal">
+      <div class="chapter-num">Capítulo 2</div>
+      <h2>El primer control</h2>
+      <p>Una encuesta aplicada en 2024 en los 20 países de América Latina preguntó a 220 videojugadoras cuándo y cómo empezaron a jugar. Casi todas empezaron en la infancia: <span class="hl">el 78% antes de los 12 años</span>.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="age">
+      <span class="chart-type">Distribución · columnas</span>
+      <p class="chart-title">¿A qué edad empezaron a jugar?</p>
+      <p class="chart-sub">Porcentaje de videojugadoras latinoamericanas encuestadas (n = 220)</p>
+      <div class="chart-body" id="age-cols"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuente: <a href="https://doi.org/10.26422/aucom.2025.1403.tre" target="_blank" rel="noopener">Treviño González y Cobos Cobos (2025), <em>Austral Comunicación</em> 14(3)</a>, tabla 2.</figcaption>
+    </figure>
+
+    <div class="narrow reveal">
+      <p>Pero ese primer control casi nunca se lo pasó una mujer. Un hermano, un padre, un primo o un tío: <strong>las figuras masculinas fueron la puerta de entrada para el 58%</strong>. Las mujeres de la familia o las amigas, apenas para el 15%.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="intro">
+      <span class="chart-type">Parte de un todo · barra 100%</span>
+      <p class="chart-title">¿Quién las introdujo a los videojuegos?</p>
+      <p class="chart-sub">Porcentaje de videojugadoras latinoamericanas encuestadas (n = 220)</p>
+      <div class="chart-body" id="intro-stack"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuente: Treviño González y Cobos Cobos (2025), tabla 3. "Figuras masculinas" agrupa hermano (24,1%), padre (13,2%), primo (8,2%), amigo (5,5%), tío (5,5%) y otros. "Figuras femeninas" agrupa madre (4,6%), hermana (3,6%), amiga (2,7%) y otras.</figcaption>
+    </figure>
+
+    <div class="narrow reveal">
+      <p>¿Y por qué siguen jugando? No es solo por pasar el rato. La razón más elegida es <strong>superar retos y poner a prueba sus habilidades</strong>, la misma motivación que mueve a cualquier jugador competitivo.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="reasons">
+      <span class="chart-type">Comparar categorías · lollipop</span>
+      <p class="chart-title">¿Por qué juegan?</p>
+      <p class="chart-sub">Porcentaje que eligió cada razón (podían elegir varias, n = 220)</p>
+      <div class="chart-body" id="reasons-lolli"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuente: Treviño González y Cobos Cobos (2025), tabla 7.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= CAPÍTULO 3 ================= -->
+<section class="chapter" id="c3">
+  <div class="container wrap">
+    <div class="chapter-head narrow reveal">
+      <div class="chapter-num">Capítulo 3</div>
+      <h2>La partida</h2>
+      <p>En 2026, la asociación Mujeres en VG encuestó a 2.993 mujeres de 12 países latinoamericanos. Les preguntó si habían visto a otras mujeres ser discriminadas, acosadas o maltratadas en espacios de videojuegos.</p>
+    </div>
+
+    <div class="big-number reveal">
+      <div class="num" id="count73">0%</div>
+      <div class="label">dijo que <strong>sí</strong>. Para casi tres de cada cuatro, el acoso es parte del paisaje.</div>
+    </div>
+
+    <figure class="chart reveal" data-chart="units">
+      <span class="chart-type">Parte de un todo · gráfico de unidades</span>
+      <p class="chart-title">De cada 100 encuestadas, 73 han presenciado acoso o discriminación hacia mujeres</p>
+      <p class="chart-sub">Cada píxel es una mujer · Estudio <em>Mujeres y Videojuegos 2026</em> (n = 2.993, 12 países)</p>
+      <div class="legend"><span><i style="background:var(--women)"></i>Lo ha presenciado</span><span><i style="background:var(--rest)"></i>No lo ha presenciado</span></div>
+      <div class="chart-body" id="units-73"></div>
+      <figcaption>Fuente: <a href="https://mujeresenvg.cl/mujeres-en-vg-estudio-2026/" target="_blank" rel="noopener">Mujeres en VG, Estudio Mujeres y Videojuegos 2026</a>.</figcaption>
+    </figure>
+
+    <div class="narrow reveal">
+      <p>¿Qué forma toma ese acoso? En México, un estudio de 2021 con 2.000 personas que juegan le pidió a las mujeres que describieran lo que habían vivido. Lo más común no son los ataques extremos, sino el goteo constante: <strong>comentarios machistas</strong>.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="types">
+      <span class="chart-type">Comparar categorías · barras</span>
+      <p class="chart-title">Lo que han vivido las videojugadoras en México</p>
+      <p class="chart-sub">Porcentaje de mujeres encuestadas que reportó cada experiencia, 2021</p>
+      <div class="chart-body" id="types-bars"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuente: Nivea y LDM, <em>Gamers Research Field Agent 2021</em> (n = 2.000 gamers de ambos géneros, México), según <a href="https://forbes.com.mx/?p=866986" target="_blank" rel="noopener">Forbes México</a>.</figcaption>
+    </figure>
+
+    <div class="narrow reveal">
+      <p>Latinoamérica no es un caso aislado. Cuando se ponen lado a lado estudios de distintas regiones, la cifra latinoamericana <strong>supera a las globales</strong>, y la experiencia empeora entre las más jóvenes.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="dots">
+      <span class="chart-type">Comparar categorías · puntos</span>
+      <p class="chart-title">Mujeres que han vivido acoso o abuso al jugar, según distintos estudios</p>
+      <p class="chart-sub">Cada estudio usa su propia muestra y pregunta: compara órdenes de magnitud, no décimas</p>
+      <div class="chart-body" id="harass-dots"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuentes: Mujeres en VG, estudio 2024 (más de 2.000 mujeres de Latinoamérica, según <a href="https://www.levelup.com/noticias/mujeres-en-vg-un-80-de-las-mujeres-en-la-industria-gamer-ha-sufrido-discriminacion-o-acoso-en-latinoamerica/" target="_blank" rel="noopener">LevelUp</a>); <a href="https://unesdoc.unesco.org/ark:/48223/pf0000391949" target="_blank" rel="noopener">UNESCO (2024)</a>, que cita un estudio de 2023 con más de 4.000 mujeres; <a href="https://www.adl.org/resources/report/hate-no-game-hate-and-harassment-online-games-2023" target="_blank" rel="noopener">ADL, <em>Hate is No Game 2023</em></a> (Estados Unidos).</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= CAPÍTULO 4 ================= -->
+<section class="chapter" id="c4">
+  <div class="container wrap">
+    <div class="chapter-head narrow reveal">
+      <div class="chapter-num">Capítulo 4</div>
+      <h2>Jugar en silencio</h2>
+      <p>Frente al acoso, muchas jugadoras no abandonan: <strong>se adaptan</strong>. Apagan el micrófono, eligen un nombre neutro o masculino, o dejan de jugar con desconocidos.</p>
+    </div>
+
+    <div class="row g-4 my-4 reveal">
+      <div class="col-md-6"><div class="stat h-100">
+        <div class="num">59%</div>
+        <div class="label">de las mujeres encuestadas en Latinoamérica <strong>ocultó su género</strong> al conectarse a partidas.</div>
+        <div class="src">Mujeres en VG, estudio 2024, según <a href="https://tiemporeal.periodismoudec.cl/2026/11/03/mujeres-en-videojuegos/" target="_blank" rel="noopener">Tiempo Real (UdeC)</a></div>
+      </div></div>
+      <div class="col-md-6"><div class="stat h-100">
+        <div class="num">59%</div>
+        <div class="label">de las mujeres en un estudio global <strong>ocultó su identidad</strong> en línea para evitar el acoso.</div>
+        <div class="src">Estudio de Lenovo citado por <a href="https://unesdoc.unesco.org/ark:/48223/pf0000391949" target="_blank" rel="noopener">UNESCO (2024)</a></div>
+      </div></div>
+    </div>
+
+    <p class="quote reveal">Dos estudios distintos, una región y el mundo, y la misma cifra: 6 de cada 10 jugadoras se esconden.</p>
+
+    <div class="narrow reveal">
+      <p>Esconderse también cambia <strong>con quién</strong> se juega. En México, las mujeres juegan mucho menos con amigos que los hombres y mucho más con su pareja o sus hijos. Su juego ocurre en círculos cerrados y seguros.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="dumbbell">
+      <span class="chart-type">Comparar categorías · pesas (dumbbell)</span>
+      <p class="chart-title">¿Con quién juegan? Mujeres y hombres en México</p>
+      <p class="chart-sub">Porcentaje que dice jugar en cada compañía, 2021 (podían elegir varias)</p>
+      <div class="legend"><span><i style="background:var(--women)"></i>Mujeres</span><span><i style="background:var(--men)"></i>Hombres</span></div>
+      <div class="chart-body" id="who-dumbbell"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuente: Nivea y LDM, <em>Gamers Research Field Agent 2021</em> (n = 2.000, México), según <a href="https://forbes.com.mx/?p=866986" target="_blank" rel="noopener">Forbes México</a>.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= CAPÍTULO 5 ================= -->
+<section class="chapter" id="c5">
+  <div class="container wrap">
+    <div class="chapter-head narrow reveal">
+      <div class="chapter-num">Capítulo 5</div>
+      <h2>La escalera que se angosta</h2>
+      <p>Si las mujeres son casi la mitad de quienes juegan, ¿por qué casi no se ven en los torneos? Porque a cada paso hacia lo profesional, su presencia se reduce. En México, <strong>casi la mitad de quienes juegan de forma amateur son mujeres, pero solo 1 de cada 10 jugadores profesionales lo es</strong>.</p>
+    </div>
+
+    <figure class="chart reveal" data-chart="ladder">
+      <span class="chart-type">Comparar categorías · barras ordenadas</span>
+      <p class="chart-title">Presencia de mujeres en cada nivel del ecosistema</p>
+      <p class="chart-sub">Porcentaje de mujeres, del juego casual a la competencia profesional (datos globales)</p>
+      <div class="chart-body" id="ladder-bars"></div>
+      <span class="scroll-hint">desliza para ver la gráfica completa →</span>
+      <figcaption>Fuentes: jugadoras, <a href="https://www.theesa.com/resources/the-global-power-of-play-report/" target="_blank" rel="noopener">ESA (2025)</a>; industria, encuesta de 2024 a más de 3.000 profesionales citada por <a href="https://unesdoc.unesco.org/ark:/48223/pf0000391949" target="_blank" rel="noopener">UNESCO (2024)</a>; fuerza laboral de esports y jugadoras profesionales, Women in Games citado por UNESCO (2024). Son fuentes distintas: la lectura es ilustrativa.</figcaption>
+    </figure>
+
+    <div class="narrow reveal">
+      <p>La escalera no se angosta por falta de interés. Se angosta porque el entorno competitivo, el más expuesto (chat de voz, partidas con desconocidos, streaming), es justo donde se concentra el acoso que vimos en el capítulo 3.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CAPÍTULO 6 ================= -->
+<section class="chapter" id="c6">
+  <div class="container wrap">
+    <div class="chapter-head narrow reveal">
+      <div class="chapter-num">Capítulo 6</div>
+      <h2>Comunidad</h2>
+      <p>Aun así, se quedan. Para el <span class="hl">59%</span> de las videojugadoras latinoamericanas, jugar es una forma de <strong>desestresarse y olvidar las preocupaciones</strong>. Y el <span class="hl">32%</span> de las encuestadas por Mujeres en VG en 2026 trabaja o busca trabajo en la industria.</p>
+    </div>
+
+    <div class="row g-4 my-4 reveal">
+      <div class="col-md-6"><div class="stat h-100">
+        <div class="num">59%</div>
+        <div class="label">usa los videojuegos para <strong>desestresarse</strong> en su día a día.</div>
+        <div class="src">Treviño González y Cobos Cobos (2025), tabla 8</div>
+      </div></div>
+      <div class="col-md-6"><div class="stat h-100">
+        <div class="num">32%</div>
+        <div class="label">trabaja o busca trabajo en la <strong>industria de los videojuegos</strong>.</div>
+        <div class="src">Mujeres en VG, Estudio 2026</div>
+      </div></div>
+    </div>
+
+    <div class="narrow reveal">
+      <p>Para cambiar el lobby desde adentro, las jugadoras se organizaron. En toda la región nacieron colectivos que crean espacios seguros, torneos propios y redes profesionales.</p>
+    </div>
+
+    <div class="row g-3 my-4 reveal">
+      <div class="col-6 col-lg-4"><div class="group h-100"><div class="name">Mujeres en VG</div><div class="where">Chile · alcance regional</div></div></div>
+      <div class="col-6 col-lg-4"><div class="group h-100"><div class="name">Women in Gamex</div><div class="where">México</div></div></div>
+      <div class="col-6 col-lg-4"><div class="group h-100"><div class="name">Fem Devs Perú</div><div class="where">Perú</div></div></div>
+      <div class="col-6 col-lg-4"><div class="group h-100"><div class="name">League of Women Latam</div><div class="where">Latinoamérica</div></div></div>
+      <div class="col-6 col-lg-4"><div class="group h-100"><div class="name">Women in Games Argentina</div><div class="where">Argentina</div></div></div>
+      <div class="col-6 col-lg-4"><div class="group h-100"><div class="name">She Gaming Colombia</div><div class="where">Colombia</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CIERRE ================= -->
+<section class="chapter" id="cierre">
+  <div class="container wrap narrow">
+    <div class="chapter-head reveal">
+      <div class="chapter-num">Cierre</div>
+      <h2>Lo que dicen los datos</h2>
+    </div>
+    <ol class="takeaways reveal">
+      <li><strong>No son una minoría.</strong> Las mujeres son el 48% de quienes juegan en el mundo y la mayoría en Brasil.</li>
+      <li><strong>El acoso es la norma, no la excepción.</strong> El 73% de las latinoamericanas encuestadas en 2026 lo ha presenciado, y en el estudio de 2024 casi 8 de cada 10 dijeron haberlo vivido.</li>
+      <li><strong>Adaptarse tiene un costo.</strong> 6 de cada 10 esconden su identidad, y la presencia femenina se desvanece al llegar a la competencia profesional.</li>
+    </ol>
+    <p class="quote reveal">El problema nunca fue que las mujeres no jueguen. Es que todavía tienen que esconderse para hacerlo.</p>
+
+    <div class="note reveal">
+      <strong>Nota metodológica.</strong> Las cifras vienen de encuestas con muestras y preguntas distintas. La mayoría no son representativas de toda la población: las encuestas de Mujeres en VG y Treviño y Cobos reclutan voluntariamente a mujeres vinculadas al gaming. Por eso las comparaciones entre estudios muestran órdenes de magnitud, no diferencias exactas. En Treviño y Cobos (2025), las mujeres fueron 220 de 1.305 respuestas válidas.
+    </div>
+
+    <h3 class="pixel reveal" style="font-size:24px;margin-top:50px">Fuentes</h3>
+    <ul class="sources reveal">
+      <li>Mujeres en VG (2026). <a href="https://mujeresenvg.cl/mujeres-en-vg-estudio-2026/" target="_blank" rel="noopener"><em>Estudio Mujeres y Videojuegos 2026</em></a>. 2.993 mujeres, 12 países.</li>
+      <li>Mujeres en VG (2024). <em>Mujeres en la Industria de los Videojuegos: Trayectorias, Transformaciones y Tendencias</em>. Reportado por <a href="https://www.levelup.com/noticias/mujeres-en-vg-un-80-de-las-mujeres-en-la-industria-gamer-ha-sufrido-discriminacion-o-acoso-en-latinoamerica/" target="_blank" rel="noopener">LevelUp</a> y <a href="https://tiemporeal.periodismoudec.cl/2026/11/03/mujeres-en-videojuegos/" target="_blank" rel="noopener">Tiempo Real (UdeC)</a>.</li>
+      <li>Pesquisa Game Brasil (2019–2026). <a href="https://www.pesquisagamebrasil.com.br" target="_blank" rel="noopener">pesquisagamebrasil.com.br</a>.</li>
+      <li>Entertainment Software Association (2025). <a href="https://www.theesa.com/resources/the-global-power-of-play-report/" target="_blank" rel="noopener"><em>Power of Play: 2025 Global Video Games Report</em></a>.</li>
+      <li>Treviño González, R. A. y Cobos Cobos, T. L. (2025). Explorando la trayectoria de las videojugadoras latinoamericanas. <em>Austral Comunicación</em>, 14(3). <a href="https://doi.org/10.26422/aucom.2025.1403.tre" target="_blank" rel="noopener">doi.org/10.26422/aucom.2025.1403.tre</a></li>
+      <li>UNESCO (2024). <a href="https://unesdoc.unesco.org/ark:/48223/pf0000391949" target="_blank" rel="noopener"><em>The gender equality quest in video games</em></a>.</li>
+      <li>ADL (2024). <a href="https://www.adl.org/resources/report/hate-no-game-hate-and-harassment-online-games-2023" target="_blank" rel="noopener"><em>Hate is No Game: Hate and Harassment in Online Games 2023</em></a>.</li>
+      <li>Nivea y LDM (2021). <em>Gamers Research Field Agent 2021</em>, México. Reportado por <a href="https://forbes.com.mx/?p=866986" target="_blank" rel="noopener">Forbes México</a>.</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <svg class="divider" id="footerTrees" aria-hidden="true"></svg>
+  <div class="pixel">Mujeres en los videojuegos competitivos en Latinoamérica</div>
+  <p>Proyecto final · Storytelling · Maestría en Tecnologías de la Información para la Analítica de Datos · Universidad de San Buenaventura Cali</p>
+  <p>Por <a href="https://github.com/naksu707" target="_blank" rel="noopener">María José Ospina Samboni</a> · Estética visual inspirada en <em>Little Witch in the Woods</em> (Sunny Side Up). Proyecto académico sin fines comerciales.</p>
+</footer>
+
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

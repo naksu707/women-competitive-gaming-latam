@@ -9,7 +9,7 @@
 
 <br><br>
 
-<img src="./mujeres-gaming-latam/assets/images/preview.png" width="85%" alt="Preview of the storytelling page" />
+<img src="./img/Screenshot at Nov 23 14-10-23.png" width="85%" alt="Preview of the storytelling page" />
 
 <br>
 
