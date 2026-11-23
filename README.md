@@ -111,4 +111,4 @@ Made with 💜 by **[María José Ospina Samboni](https://github.com/naksu707)**
 
 > [!NOTE]
 > **Project status: Completed ✅**
-> This repository is finished and is no longer being updated. All projects were last verified to work correctly as of **November 1, 2026**. Later changes to browsers, libraries or dependencies may affect how some projects run.
+> This repository is finished and is no longer being updated. All projects were last verified to work correctly as of **November 23, 2026**. Later changes to browsers, libraries or dependencies may affect how some projects run.
