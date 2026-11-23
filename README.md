@@ -88,8 +88,12 @@ Open `index.html` in your browser, or use **Live Server** in VS Code.
 ## 🎨 Visual inspiration
 
 The cozy pixel-art mood, forest palette and witchy theme are inspired by
-[*Little Witch in the Woods*](https://www.nintendo.com/en-ca/store/products/little-witch-in-the-woods-switch/) by Sunny Side Up.
+*Little Witch in the Woods* by Sunny Side Up.
 This is a non-commercial academic project and is not affiliated with the game or its creators.
+
+<p align="center">
+       <img src="/img/f5413564bd8e1c46b980c17e277b325d2de063eb4e645e544c48cf887a6e46c0.avif" width="600" alt="Open with Live Server Option">
+     </p>
 
 ---
 
