@@ -51,9 +51,9 @@ All figures in the story come from public reports and peer-reviewed research:
 
 ## 🛠️ Technologies Used
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
 
 - **HTML5:** page structure and narrative sections
 - **CSS3:** visual style, animations and responsive design
@@ -64,13 +64,11 @@ All figures in the story come from public reports and peer-reviewed research:
 
 ## 🤖 AI Support Tools
 
+<p>
 <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" />
-<img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logoColor=white" />
+</p>
 
 - **Claude:** idea exploration, narrative structure and technical assistance
-- **ChatGPT:** brainstorming and content review
-- **NotebookLM:** synthesis of research papers and reports
 
 All data, analysis and final design decisions were made by the author.
 
