@@ -13,7 +13,7 @@
 
 <br>
 
-**[✨ View the live story](https://naksu707.github.io/women-competitive-gaming-latam/mujeres-gaming-latam/)**
+**[✨ View the live story](https://jazzy-pie-c29ff9.netlify.app/storitelling-eng/)**
 
 </div>
 
