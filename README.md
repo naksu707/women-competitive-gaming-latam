@@ -106,3 +106,9 @@ Final project for the **Storytelling** course, M.Sc. in Information Technologies
 Made with 💜 by **[María José Ospina Samboni](https://github.com/naksu707)**
 
 </div>
+
+---
+
+> [!NOTE]
+> **Project status: Completed ✅**
+> This repository is finished and is no longer being updated. All projects were last verified to work correctly as of **November 1, 2026**. Later changes to browsers, libraries or dependencies may affect how some projects run.
