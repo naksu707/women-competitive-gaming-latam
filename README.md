@@ -103,7 +103,7 @@ Final project for the **Storytelling** course, M.Sc. in Information Technologies
 
 <div align="center">
 
-Made with 💜 by **[María José Ospina Samboni](https://github.com/naksu707)**
+Made by 💜 **[María José Ospina Samboni](https://github.com/naksu707)** 💜
 
 </div>
 
