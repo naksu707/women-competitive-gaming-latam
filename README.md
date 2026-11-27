@@ -101,14 +101,17 @@ This is a non-commercial academic project and is not affiliated with the game or
 
 Final project for the **Storytelling** course, M.Sc. in Information Technologies for Data Analytics, Universidad de San Buenaventura Cali.
 
-<div align="center">
-
-Made by 💜 **[Maria Jose Ospina](https://github.com/naksu707)** 💜
-
-</div>
-
 ---
 
 > [!NOTE]
 > **Project status: Completed ✅**
 > This repository is finished and is no longer being updated. All projects were last verified to work correctly as of **November 23, 2026**. Later changes to browsers, libraries or dependencies may affect how some projects run.
+<div align="center">
+
+---
+
+Made by 💜 **[Maria Jose Ospina](https://github.com/naksu707)** 💜
+
+</div>
+
+
